@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$title · $site_title</title>
+<meta name="description" content="$description">
+<link rel="stylesheet" href="${root}style.css">
+</head>
+<body>
+<main class="message">
+  <p class="count">$number of $total</p>
+  <article>
+$body
+  </article>
+  <nav class="pager" aria-label="Message navigation">
+    $prev_link
+    <a href="${root}">All messages</a>
+    $next_link
+  </nav>
+</main>
+</body>
+</html>
