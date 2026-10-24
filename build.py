@@ -16,7 +16,7 @@ from string import Template
 ROOT = Path(__file__).parent
 SRC = ROOT / "messages.csv"
 TPL = ROOT / "templates"
-OUT = ROOT / "dist"
+OUT = ROOT / "docs"
 SITE_TITLE = "Messages"
 
 
